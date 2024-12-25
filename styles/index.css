@@ -26,3 +26,24 @@ body{
 #nav > div{
     padding: 1.2rem;
 }
+
+/* content styling */
+#display-blogs{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+.blog{
+    border: 1px solid red;
+    padding: 5px;
+}
+.load-more{
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+#modal-header{
+    display: flex;
+    justify-content: flex-end;
+}
